@@ -33,6 +33,9 @@ libs/jars/
 Example project structure:
 
 
+# Project File Structure
+
+
 project
 │
 ├── libs
@@ -43,6 +46,7 @@ project
 │
 ├── Producer.java
 └── Consumer.java
+
 
 
 ---
