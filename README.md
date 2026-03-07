@@ -39,14 +39,13 @@ Example project structure:
 project
 │
 ├── libs
-│ └── jars
-│ ├── jackson-annotations-2.15.4.jar
-│ ├── jackson-core-2.15.4.jar
-│ └── jackson-databind-2.15.4.jar
+│   └── jars
+│       ├── jackson-annotations-2.15.4.jar
+│       ├── jackson-core-2.15.4.jar
+│       └── jackson-databind-2.15.4.jar
 │
 ├── Producer.java
 └── Consumer.java
-
 
 
 ---
