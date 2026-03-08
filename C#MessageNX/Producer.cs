@@ -20,9 +20,9 @@ class Producer
 
         var mnx = new MessageNX();
 
-        // string appId = await mnx.AppName("sample-app3").RegisterAsync();
+        // string appId = await mnx.AppName("app-name").RegisterAsync();
 
-        string channelId = "141983614";
+        string channelId = "....paste appId";
 
         foreach (var job in students)
         {

@@ -7,7 +7,7 @@ class Consumer
     static async Task Main(string[] args)
     {
         var mnx = new MessageNX();
-        mnx.SetChannel("141983614");
+        mnx.SetChannel("appId");
         await mnx.ConsumeAsync(topic =>
         {
             if (topic.ContainsKey("name"))
