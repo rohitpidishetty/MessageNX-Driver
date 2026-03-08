@@ -11,9 +11,9 @@ jobs = [
 mnx = MessageNX()
 
 # Resister for id
-# id = mnx.app_name("sample-app").register()
+# id = mnx.app_name("app-name").register()
 # print(id)
 
 for job in jobs:
-    res = mnx.produce(job, "141983614")
+    res = mnx.produce(job, "...paste appId")
     print(res.content)
