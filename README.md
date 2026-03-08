@@ -1,4 +1,4 @@
-# MessageNX-Driver
+# MessageNX-SDK
 Driver code for MessageNX, implemented in Java, C#, Node and Python. You can directly download these package and link it to your code via pre-implemented methods.
 MessageNX is a lightweight producer-consumer messaging library that enables applications to communicate through isolated message channels. Producers can publish messages to a channel while consumers fetch and process them asynchronously.
 
