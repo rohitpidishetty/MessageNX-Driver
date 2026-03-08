@@ -33,10 +33,10 @@ public class Producer {
     students.add(s4);
 
     MessageNX mnx = new MessageNX();
-    // String appId = mnx.appName("sample-app3").register();
+    // String appId = mnx.appName("app-name").register();
 
     for (Map<String, Object> job : students) {
-      int res = mnx.produce(job, "141983614");
+      int res = mnx.produce(job, "...paste appId");
       System.out.println(res);
     }
   }

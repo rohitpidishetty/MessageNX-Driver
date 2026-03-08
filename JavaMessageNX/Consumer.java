@@ -6,7 +6,7 @@ public class Consumer {
 
   public static void main(String[] args) throws Exception {
     MessageNX mnx = new MessageNX();
-    mnx.setChannel("141983614");
+    mnx.setChannel("appId");
     mnx.consume(
       new MessageNX.process() {
         @Override
